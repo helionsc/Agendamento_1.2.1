@@ -190,7 +190,7 @@ if menu == 'Agendamento':
         button_enabled = st.button('Confirmar')
 
     else:
-        st.warning('Aguardando confirmação')
+        st.warning('Preencha os dados para confirmar')
         button_enabled = False
 
     if button_enabled:
