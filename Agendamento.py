@@ -425,17 +425,4 @@ if menu == 'Agendamento':
 
 
 
-if menu == 'Vendas':
-    st.title("Máscara de CPF")
 
-
-
-if menu == 'Inicio':
-    st.title('Espaço Abrace\n')
-    st.write(
-        'Nesse ambiente você pode marcar consultas e tirar dúvidas ')
-    st.markdown('## Dias de Atendimentos Abaixo')
-    st.info('Teste')
-    st.info('Teste')
-# ======================================================================================================================
-# importando os
