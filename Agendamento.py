@@ -165,7 +165,7 @@ if menu == 'Agendamento':
             return data
 
 
-    locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+ 
     d = st.date_input(
         "Selecione para que data deseja agendar",
         min_value=datetime.date.today(), max_value=None)
