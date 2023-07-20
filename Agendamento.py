@@ -107,7 +107,7 @@ st.sidebar.image(image)
 st.sidebar.markdown('## Menu:')
 menu = st.sidebar.radio(
     "Selecione:",
-    ("Agendamento")
+    ("Agendamento","Apresentação")
 )
 
 # Horários disponíveis
