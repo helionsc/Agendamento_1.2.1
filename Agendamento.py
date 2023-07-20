@@ -330,15 +330,7 @@ if menu == 'Agendamento':
             s.login('helionsc.work@gmail.com', password)
             s.sendmail('helionsc.work@gmail.com', [msg['To']], msg.as_string().encode('utf-8'))
 
-            dados = {
-                'Nome': [nome],
-                'Data': [data_formatada],
-                'Hora': [t],
-                'Profissional': [option],
-                'Data da Marcação': [hoje]
-            }
-            df = pd.DataFrame(dados)
-            df.to_excel("Dados2.xlsx")
+    
 
 
         enviar_email()
